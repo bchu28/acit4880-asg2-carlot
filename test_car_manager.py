@@ -1,4 +1,4 @@
-from unittest import TestCase
+import unittest
 
 from car_manager import CarManager
 
@@ -8,7 +8,7 @@ import inspect
 import xmlrunner
 
 
-class TestCarManager(TestCase):
+class TestCarManager(unittest.TestCase):
     """ Tests the CarManager class """
 
     TEST_DB = 'test_carlot.sqlite'
