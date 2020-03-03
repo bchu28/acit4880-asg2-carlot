@@ -1,9 +1,9 @@
 from sqlalchemy import Column, Integer, Float, String, DateTime
-from base import Base
+from base import BASE
 
 import datetime
 
-class Car(Base):
+class Car(BASE):
     """ Car Class """
 
     __tablename__ = "cars"
