@@ -1,7 +1,5 @@
 import unittest
-
 from car_manager import CarManager
-
 import sqlite3
 import os
 import inspect
